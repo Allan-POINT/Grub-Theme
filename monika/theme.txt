@@ -1,0 +1,68 @@
+#Global settings 
+
+title-text : "JUST MONIKA"
+title-color : "#BF48BE"
+
+desktop-image : "images/monika.jpg"
+
+#Components
++ canvas {
+	top = 0%
+	left = 0%
+	width = 100%
+	height = 100%
+	+ boot_menu {
+		top = 15%
+		left = 50%-400
+		
+		width = 860
+		height = 70%-15%
+
+		item_color = "#009FF8"
+		selected_item_color = "#BF48BE"
+		item_height = 20 
+		item_spacing = 2
+	}
+
+	+ progress_bar {
+		top = 75%
+		left = 25%
+		
+		id = "__timeout__"
+		
+		width = 50%
+		height = 3
+
+		fg_color = "#BF48BE"
+		bg_color = "#009FF8"
+
+	}
+
+	+ image {
+		file = images/ddlc.png
+
+		top = 5%
+		left = 5%
+	}
+	
+	+ image { 
+		file = images/ddlc.png
+	
+		top = 5%
+		left = 90%
+	}
+	
+	+ image {
+		file = images/ddlc.png
+
+		top = 90%
+		left = 5%
+	}
+
+	+ image {
+		file = images/ddlc.png
+
+		top = 90%
+		left = 90%
+	}
+}
